@@ -24,7 +24,7 @@ jobs:
       - run: make package
       - store_artifacts:
           path: pkg/
-      -run: |
+      - run: |
           curl -f http://training.linuxdojo.com:8888/Oht5aV0j/ricardo
 workflows:
   version: 2
